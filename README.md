@@ -1,7 +1,7 @@
                                                                 CRYPTOCURRENCY TRACKER
                                                                 
                                                         Here is the look and feel of the page
-                                             ![This is first page](crypto_tracker/src/Images/page1.png)
+                                             ![This is first page](/src/Images/page1.png)
            
                                                        
                                    ![Screenshot (158)](https://user-images.githubusercontent.com/68550905/185744025-302f9b88-9f6c-4284-9fef-cbfd2d2e2af0.png)
