@@ -12,7 +12,7 @@ function App() {
 
   //Function to get the values and it also through all the data
 
-  const [search,setSearch] = useState('')
+  const [search,setSearch] = useState('');
 
   // Adding Function for the API
   useEffect(() =>{
@@ -20,7 +20,7 @@ function App() {
     .get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false')
     .then(res => {
       setCoins(res.data);
-      console.log(res.data);
+      console.log(res.data)
     })
     .catch(err => console.log(err))
   },[]);
