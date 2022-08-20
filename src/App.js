@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
+import Coin from './Coin';
 
 
 
@@ -25,13 +26,13 @@ function App() {
   },[]);
 
   const handleChange = e => {
-    setSearche(e.target.value)
+    setSearch(e.target.value)
   }
 
   // Function which allow us to filter the actual coin and displays whatever we type in 
 
   const filteredCoins = coins.filter(coin =>
-    coin.name.toLowerCase().includes(search.toLowercase()) //converting everething in lower case
+    coin.name.toLowerCase().includes(search.toLowerCase()) //converting everething in lower case
     )
   return (
   
@@ -43,6 +44,19 @@ function App() {
           </form>
 
       </div>
+      {filteredCoins.map(coin =>{
+        return(
+          <Coin key ={coin.id} 
+          names = {coin.names} 
+          image = {coin.image} 
+          symbol = {coin.symbol}
+          marketcap = {coin.market_cap}
+          price = {coin.current_price}
+          priceChange = {coin.price_change_percentage_24h}
+          volume = {coin.total_volume}
+          />
+        )
+      })}
     </div>
   );
 }
