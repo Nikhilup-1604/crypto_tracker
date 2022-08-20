@@ -1,22 +1,8 @@
-                                                                CRYPTOCURRENCY TRACKER
-                                                                
-                                                        Here is the look and feel of the page
-                                             ![This is first page](/src/Images/page1.png)
-           
-                                                       
-                                   ![Screenshot (158)](https://user-images.githubusercontent.com/68550905/185744025-302f9b88-9f6c-4284-9fef-cbfd2d2e2af0.png)
-   
-                                                         
-                                   ![Screenshot (159)](https://user-images.githubusercontent.com/68550905/185744055-a0e7b178-8f61-4428-8725-153bfe126e31.png)
-                                   
-                                   
-                                                               Adding some code snippets
-                                   
-                                   ![Screenshot (160)](https://user-images.githubusercontent.com/68550905/185744084-2e91a668-22f9-4e12-8cb5-6633690f2559.png)
-                                   
-                                   
-                                  ![Screenshot (161)](https://user-images.githubusercontent.com/68550905/185744096-3d61a385-c3da-4895-8e62-1caeeabd1f09.png)
-
-                                                              
-                                                              
-                                                              
+                                                      **HOW THE PAGE LOOKS LIKE**      
+![Screenshot (158)](https://user-images.githubusercontent.com/68550905/185744908-d51cf4e6-7bc1-4d27-99a7-983f03bba368.png)
+                                                 
+![Screenshot (159)](https://user-images.githubusercontent.com/68550905/185744914-c4a4b39e-f751-4b5d-8af8-15c6ae3a670d.png)
+                                               
+                                                         **CODE SNIPPETS**      
+![Screenshot (161)](https://user-images.githubusercontent.com/68550905/185744880-77a7adc7-ff65-4cef-933c-3477ed0482ad.png)
+![Screenshot (160)](https://user-images.githubusercontent.com/68550905/185744898-3366eb21-5ea8-4515-a4b7-33a86258688a.png)
