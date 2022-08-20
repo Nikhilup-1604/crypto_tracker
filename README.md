@@ -1,7 +1,8 @@
                                                                 CRYPTOCURRENCY TRACKER
                                                                 
                                                         Here is the look and feel of the page
-                                                        
+                                             ![Screenshot (157)](https://user-images.githubusercontent.com/68550905/185744193-ba0402f9-a175-42ee-a725-a8ee0c2fe2a3.png)
+           
                                                        
                                    ![Screenshot (158)](https://user-images.githubusercontent.com/68550905/185744025-302f9b88-9f6c-4284-9fef-cbfd2d2e2af0.png)
    
