@@ -3,6 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 
+
 function App() {
 
 
@@ -20,8 +21,15 @@ function App() {
   },[]);
 
   return (
-    <div className="App">
-      <h1>API</h1>
+  
+    <div className="coin-app">
+      <div className = "coin-search">
+        <h1 className = "coin-text"> Search a Currency</h1>
+          <form >
+            <input type = "text"  placeholder="Search" className = "coin-input"></input>
+          </form>
+
+      </div>
     </div>
   );
 }
