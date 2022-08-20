@@ -9,6 +9,10 @@ function App() {
 
   const [coins,setCoins] = useState([]);
 
+  //Function to get the values and it also through all the data
+
+  const [search,setSearch] = useState('')
+
   // Adding Function for the API
   useEffect(() =>{
     axios
@@ -20,13 +24,22 @@ function App() {
     .catch(err => console.log(err))
   },[]);
 
+  const handleChange = e => {
+    setSearche(e.target.value)
+  }
+
+  // Function which allow us to filter the actual coin and displays whatever we type in 
+
+  const filteredCoins = coins.filter(coin =>
+    coin.name.toLowerCase().includes(search.toLowercase()) //converting everething in lower case
+    )
   return (
   
     <div className="coin-app">
       <div className = "coin-search">
         <h1 className = "coin-text"> Search a Currency</h1>
           <form >
-            <input type = "text"  placeholder="Search" className = "coin-input"></input>
+            <input type = "text"  placeholder="Search" className = "coin-input" onChange={handleChange}></input>
           </form>
 
       </div>
